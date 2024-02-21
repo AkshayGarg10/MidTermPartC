@@ -30,6 +30,8 @@ public class UserProfile
         userID = givenID;
         genre= givenGenre;
     }
+    
+    public UserProfile(){}
 
     /**
      * A getter for the userID
@@ -61,7 +63,9 @@ public class UserProfile
         this.genre = genre;
     }
     
-    
+    public String[] getGenres() {
+        return genres;
+    }
     
     
     
